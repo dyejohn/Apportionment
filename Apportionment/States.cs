@@ -27,8 +27,8 @@ namespace Apportionment
 
         public void SolveForMostRepresentation()
         {
-            // we stop when there are 450!
-            while(_states.Sum(x => x.NumberOfSeats) < 450)
+            // we stop when there are 435!
+            while(_states.Sum(x => x.NumberOfSeats) < 435)
             {
                 // find the state with the worst representation
                 _states.Sort(SortByReps);
