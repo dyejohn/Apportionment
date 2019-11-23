@@ -9,39 +9,6 @@ namespace Apportionment
     {
         List<State> _states = new List<State>();
 
-        //public void Load()
-        //{
-        //    // load all the states and get them set up.
-
-        //    using (System.IO.StreamReader sr = new System.IO.StreamReader("startingStateData.csv"))
-        //    {
-        //        var allStateData = sr.ReadToEnd();
-
-        //        string[] stateData = allStateData.Split('\n');
-
-        //        foreach(var item in stateData)
-        //        {
-        //            var deets = item.Split(',');
-        //            var values = item.Split("\"");
-
-        //            var state = new State()
-        //            {
-        //                Name = deets[0],
-        //                CensusPop = int.Parse(values[1].Replace(",","")),
-        //                CurrentPop = int.Parse(values[3].Replace(",", ""))
-
-        //            };
-        //            _states.Add(state);
-        //        }
-        //    }
-
-        //    var states = System.Text.Json.JsonSerializer.Serialize(_states);
-        //    System.IO.StreamWriter stw = new System.IO.StreamWriter("state_data.json");
-        //    stw.Write(states);
-        //    stw.Close();
-
-        //}
-
         public void Load()
         {
 
